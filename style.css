@@ -2,7 +2,7 @@
 
 /* vv define custom properties vv; allows for easy color change */
 :root {
-    --line-border-fill: #3498db;
+    --line-border-fill: #84b56b;
     --line-border-empty: #e0e0e0;
 }
 
@@ -20,7 +20,7 @@ body {
     justify-content:center;
     height: 100vh;
     overflow:hidden;
-    background-color: #f6f7fb;
+    background-color: white;
 }
 
 .imgcontainer {
@@ -34,7 +34,7 @@ body {
     display: block;
     width: 350px;
     max-height: 10vh;
-    transform: translateY(-95px);
+    transform: translateY(-100px);
 }
 
 img {
@@ -50,6 +50,9 @@ img {
 p {
     font-size: 48;
     display: block;
+    border: 2px solid black;
+    border-style: double;
+    padding: 10px;
 }
 
 .container {
