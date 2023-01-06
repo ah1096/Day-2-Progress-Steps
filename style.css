@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Press+Start+2P&display=swap');
 
 /* define custom properties; allows for easy color change */
 :root {
@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: Montserrat;
+    font-family: 'Press Start 2P', cursive;
     margin: 0;
     display: flex;
     align-items: center;
@@ -23,8 +23,40 @@ body {
     background-color: #f6f7fb;
 }
 
+.imgcontainer {
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.img.visible {
+    display: block;
+    /* margin-bottom: 50px; */
+    width: 350px;
+    max-height: 10vh;
+    transform: translateY(-95px);
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.img {
+    display: none;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 48;
+    display: block;
+}
+
 .container {
     text-align: center;
+    justify-content: center;
+    /* width: 100%; */
 }
 
 .progresscontainer {
