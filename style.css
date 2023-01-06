@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Press+Start+2P&display=swap');
 
-/* define custom properties; allows for easy color change */
+/* vv define custom properties vv; allows for easy color change */
 :root {
     --line-border-fill: #3498db;
     --line-border-empty: #e0e0e0;
@@ -32,7 +32,6 @@ body {
 
 .img.visible {
     display: block;
-    /* margin-bottom: 50px; */
     width: 350px;
     max-height: 10vh;
     transform: translateY(-95px);
@@ -56,7 +55,6 @@ p {
 .container {
     text-align: center;
     justify-content: center;
-    /* width: 100%; */
 }
 
 .progresscontainer {
@@ -79,7 +77,7 @@ p {
     height: 4px;
     width: 100%;
     z-index: -1;
-        /* ^^^places line BEHIND the numbers */
+        /* ^^^places progress line BEHIND the numbers */
 }
 
 .progress {
@@ -91,7 +89,7 @@ p {
     height: 4px;
     width: 0%;
     z-index: -1;
-        /* ^^^places line BEHIND the numbers */
+        /* ^^^places progress line BEHIND the numbers */
     transition: 0.4s ease;
 }
 
@@ -136,3 +134,5 @@ p {
     background-color: var(--line-border-empty);
     cursor: not-allowed;
 }
+
+
